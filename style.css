@@ -1,0 +1,102 @@
+/*created by Siddik-Arim.*/
+
+body {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQicEBU_2-YTiBpuKLqt8db6KuS82ZorMfhHqzUtP89__U-1EYz&usqp=CAU');
+}
+
+.box {
+    
+    width:300px;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:#091919;
+    text-align: center;
+    box-shadow:9px 10px 9px;
+}
+
+.box h1 {color:white;}
+
+
+
+
+.box .email 
+  
+ {  border:2px solid yellow;
+    border-radius:24px;
+    background:none;
+    display:block;
+    margin:25px auto;
+    padding:17px;
+    outline:none;
+    padding-right:5px;
+    text-align:center;
+    
+}
+
+
+
+.box .password
+{
+    border:2px solid yellow;
+    border-radius:24px;
+    background:none;
+    display:block;
+    margin:20px auto;
+    padding:17px;
+    outline:none;
+    padding-right:5px;
+    text-align:center;
+    
+}
+
+
+
+.box .email:focus
+{
+    
+ width:280px;   
+ border:3px solid yellow;   
+ background-color:white;
+ 
+}
+
+
+.box .password:focus
+{
+    
+ width:250px;   
+ border:3px solid yellow;
+ background-color:white;   
+ 
+}
+
+.box .button
+{
+
+    border:0;
+    color:white;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;    
+    border:2px solid #2ecc71;
+    padding:14px 40px;
+    outline:none;
+    border-radius:24px;
+    transition:0.20s;
+    cursor:pointer;
+}
+
+.box .button:hover {
+    color:black;
+    background-color:yellow;
+    border-color:white;
+}
+
+
